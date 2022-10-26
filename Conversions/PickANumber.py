@@ -28,3 +28,9 @@ print(movies_in_theaters)
 print('Remove by key name: ')
 del movies_in_theaters['Deadpool 3']
 print(movies_in_theaters)
+
+
+'''Clear'''
+print('Clearing dictionary: ')
+movies_in_theaters.clear()
+print(movies_in_theaters)
