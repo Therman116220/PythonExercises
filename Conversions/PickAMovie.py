@@ -1,36 +1,46 @@
 
 
-movies_in_theaters = {
-    'Inception': '12:00pm',
-    'The Internship': '4:00pm',
-    'Black Adam': '11:00pm',
-    'Santa Clause': '10:30pm'
+morning_movies_in_theaters = {
+    'Inception': '12:00am',
+    'The Internship': '4:00am',
+    'Black Adam': '11:00am',
+    'Santa Clause': '10:30am'
 }
+
+evening_movies_in_theaters = {
+    'Bicentennial Man': '10:30pm',
+    'Remember The Titans': '11:00pm',
+    'In Time': '9:30pm'
+
+}
+
 '''Adding()'''
-movies_in_theaters['Deadpool 3'] = '11:00pm'
-movies_in_theaters['The Pursuit Of Happiness'] = '6:00pm'
-movies_in_theaters['movieName'] = 'soon to be deleted'
+morning_movies_in_theaters['Deadpool 3'] = '11:00am'
+morning_movies_in_theaters['The Pursuit Of Happiness'] = '6:00am'
+morning_movies_in_theaters['movieName'] = 'soon to be deleted'
 
 
 '''Removing()'''
 print('Pre: ')
-print(movies_in_theaters)
-movies_in_theaters.pop('movieName')
+print(morning_movies_in_theaters)
+morning_movies_in_theaters.pop('movieName')
 print('Post: ')
-print(movies_in_theaters)
+print(morning_movies_in_theaters)
 
 '''Delete Last in'''
-movies_in_theaters['Last in'] = 'FirstOut'
+morning_movies_in_theaters['Last in'] = 'FirstOut'
 print('LIFO kinda: ')
-print(movies_in_theaters)
-movies_in_theaters.popitem()
-print(movies_in_theaters)
+print(morning_movies_in_theaters)
+morning_movies_in_theaters.popitem()
+print(morning_movies_in_theaters)
 print('Remove by key name: ')
-del movies_in_theaters['Deadpool 3']
-print(movies_in_theaters)
+del morning_movies_in_theaters['Deadpool 3']
+print(morning_movies_in_theaters)
 
 
 '''Clear'''
 print('Clearing dictionary: ')
-movies_in_theaters.clear()
-print(movies_in_theaters)
+morning_movies_in_theaters.clear()
+print(morning_movies_in_theaters)
+
+
