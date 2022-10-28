@@ -1,25 +1,6 @@
-'''Similar to a Nested array, a list of lists'''
-import random
+lst_1 = [1, 2, 3]
+lst_2 = [4, 5, 6]
+lst_3 = [7, 8, 9]
 
-lunchMenu = ['Pop Tart', 'Croissant', 'Chicken Soup', 'PB & J']
-
-print('Menu: ', lunchMenu)
-
-random_item = random.choice(lunchMenu)
-print('Breakfast: ' + str(random_item))
-
-
-
-'''lunchMenu = [[ 'Pop Tart', 'Croissant', 'Chicken Soup', 'PB & J']]
-
-
-# printing original list
-print("Original list is : " + str(lunchMenu))
-
-# using random.choice() to
-# get a random number
-random_num = random.choice(lunchMenu)
-
-# printing random number
-print("Random selected number is : " + str(random_num))
-'''
+lst = [lst_1, lst_2, lst_3]
+print(lst)
