@@ -6,13 +6,52 @@ from  queue import Queue
 q = queue.Queue()
 
 numqueue = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-i = 0
+
 for i in range(len(numqueue)):
 
-    if i == i:
-     q.put(i)
     print(numqueue)
     print("List #: ", i)
+
+
+
+'''
+
+Terminal Response:
+For loop loops through the "length" of the "numqueue" array exactly like java & prints the concatenation 
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+List #:  0
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+List #:  1
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+List #:  2
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+List #:  3
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+List #:  4
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+List #:  5
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+List #:  6
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+List #:  7
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+List #:  8
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+List #:  9
+
+& a list of local gas stations
+
+['Shell', 'Chevron', 'Buckeyes', 'Loves', 'QT', 'Seven-Eleven', 'Circle K', 'Valero', 'Exxon']
+
+
+
+'''
+
+
+
+
+
+
 
 
 fuelstop_queue = Queue()
