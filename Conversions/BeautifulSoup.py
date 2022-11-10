@@ -12,3 +12,8 @@ beautsoop = toolOfChoice(req.content, 'html.parser')
 '''Find from within the html document (this tag)'''
 data = beautsoop.find(element)
 print(data)
+
+
+
+
+    

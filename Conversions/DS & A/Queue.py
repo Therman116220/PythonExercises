@@ -3,6 +3,29 @@ from  queue import Queue
 '''First In First Out (FIFO)'''
 
 
+
+
+library_collection = Queue()
+
+
+library_collection.put("Catcher In The Rye")
+library_collection.put("Brave New World")
+
+
+
+
+
+
+
+
+
+listed_queue = list(library_collection.queue)
+print(listed_queue)
+
+
+
+
+
 q = queue.Queue()
 
 numqueue = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -11,8 +34,6 @@ for i in range(len(numqueue)):
 
     print(numqueue)
     print("List #: ", i)
-
-
 
 '''
 
