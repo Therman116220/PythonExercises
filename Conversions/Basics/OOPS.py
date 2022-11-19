@@ -1,4 +1,5 @@
-class Food (object):
+'''
+class Person (object):
     def __int__(self, f, l, a):
         self.firstname = f
         self.lastName = l
@@ -10,6 +11,7 @@ class Food (object):
         return self.lastName
     def getAge(self):
         return self.age
+'''
 
 
 
