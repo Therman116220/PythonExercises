@@ -20,8 +20,11 @@ print(dictionary)
 
 
 
-'''    
-Grabbing a item that might not be there will result in a
-KeyError: ' ' error
+person = {
 
-'''
+    'FirstName': 'John',
+    'LastName': 'Doe',
+    'age': '23',
+}
+print(person.get('FirstName'), person.get('LastName'), person.get('age'))
+print('Hi, my name is', person.get('FirstName'), person.get('LastName'))

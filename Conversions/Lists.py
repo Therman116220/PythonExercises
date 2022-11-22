@@ -22,6 +22,7 @@ daily_menu = {
 '''print('Print Keys but not values')
 for item in daily_menu:
     print(item)'''
+
 for name, daily_menu in daily_menu.items():
     print(name)
     for item in daily_menu:
