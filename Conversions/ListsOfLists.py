@@ -5,3 +5,6 @@ lst_3 = [7, 8, 9]
 lst = [lst_1, lst_2, lst_3] * 2
 print(lst)
 
+
+
+
