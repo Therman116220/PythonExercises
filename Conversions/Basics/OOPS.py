@@ -12,7 +12,8 @@ class Person (object):
     def getAge(self):
         return self.age
 '''
- class computer (object):
+
+''' class computer (object):
      def __init__(self, c, r, m, h):
         self.cpu = c
         self.ram = r
@@ -26,7 +27,10 @@ class Person (object):
         def getMotherboard(self):
             return self.motherboard
         def getHarddriveSpace(self):
-            return self.harddriveSpace
+            return self.harddriveSpace'''
+
+    class memory(object):
+        def __init__(self, RPM, SATA, c, d, e, f):
 
 
 
